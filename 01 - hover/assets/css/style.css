@@ -1,0 +1,25 @@
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+}
+
+button:hover {
+    background-color: palegoldenrod;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: paleturquoise;
+    margin-top: 30px;
+}
+
+.container:hover {
+    background: url('../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif') no-repeat;
+    background-size: cover;
+}

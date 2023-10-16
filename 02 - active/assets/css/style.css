@@ -1,0 +1,21 @@
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+}
+
+button:hover {
+    background-color: palegoldenrod;
+    color: darkgreen;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+a:active {
+    background-color: red;
+    color: black;
+}

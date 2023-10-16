@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+/*
+article :first-of-type { /*vai estilizar o primeiro tipo dentro do elemento, no caso na primeira div, p e span
+    color: orange;
+}*/
+
+article :last-of-type {
+    color: orange;
+}

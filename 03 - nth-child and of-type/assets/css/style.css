@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+td + td, th + th {
+    text-align: right;
+}
+
+/*
+article .exemplo:nth-child(1) { /*(3 = terceiro paragrafo)
+    color: red;
+} */
+
+article p:nth-of-type(1) { /*Vai procurar o filho do tipo colocado*/
+    color: red;
+}
+
+#lista-1 li:nth-child(even) { /*Vai aplicar em todos elementos que sao par(even)*/
+    color: blue;
+}
+
+li:nth-child(odd) { /*Todos os impares*/
+    color: red;
+}
+
+li:nth-child(3n+1) { /*vai aplicar estilização de 3 em 3 (3n) / (3n+1) Vai contar de 3 em 3 apartir do numero 1*/
+    background-color: yellow;
+}
+
+tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) td {
+    background-color: lightyellow;
+}
